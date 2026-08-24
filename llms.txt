@@ -1,0 +1,50 @@
+# CashCat Swap — Technical Reference & Protocol Knowledge Base
+
+> Swap CASHCAT — the community memecoin on Robinhood Chain — against ETH through the Uniswap V3 CASHCAT/WETH pool. Learn the network, the pool, fees, gas, safety, and how to swap.
+
+## Key Facts & Token Specs
+- **Asset**: CASHCAT — ERC-20 community memecoin (not affiliated with Robinhood)
+- **Network**: Robinhood Chain — EVM-compatible Ethereum layer 2 built with Arbitrum technology (mainnet 1 July 2026)
+- **Token Contract**: 0x020bfC650A365f8BB26819deAAbF3E21291018b4 (Robinhood Chain)
+- **Supply**: 1,000,000,000 fixed — no mint function
+- **Primary Pool**: CASHCAT/WETH on Uniswap V3 (1% fee tier)
+- **Custody Architecture**: Non-custodial — funds routed through public smart contracts; your wallet signs all approvals
+- **Gas**: Paid in ETH on Robinhood Chain
+- **Centralized Alternative**: MEXC CASHCAT/USDT market (custodial)
+- **Practitioner Test Verification**: Routes and contract checked against public onchain data & CoinGecko (August 2026)
+
+## How CashCat Swap Works
+
+### 1. Token Swaps & Routing
+Connect an EVM wallet set to Robinhood Chain, select input (ETH) and output (CASHCAT) or the reverse, review the Uniswap V3 route, approve the token allowance when selling CASHCAT, and execute the swap.
+
+### 2. Costs & Price Impact
+Total cost is the Uniswap V3 pool fee (1% tier), network gas in ETH, and price impact. Memecoin liquidity is thin, so large orders carry high price impact — reduce size rather than widening slippage.
+
+## Safety, Audits & Anti-Phishing
+- **Contract**: Verified on public explorers; fixed 1B supply, no mint.
+- **Risk**: High-risk, volatile memecoin from an anonymous developer; not affiliated with Robinhood; not investment advice.
+- **Anti-Phishing Protocol**: Verify the contract address, network, pool, and approval spender before signing any Web3 transaction.
+
+## Frequently Asked Questions (FAQ)
+
+### What network is CASHCAT on?
+Robinhood Chain, an EVM layer 2 built with Arbitrum technology. Hold ETH on that chain for gas.
+
+### What does a CASHCAT swap cost?
+The Uniswap V3 pool fee (1% tier), network gas in ETH, and price impact. Selling CASHCAT adds a one-time approval transaction.
+
+### Is CashCat Swap official?
+No. This is an independent dashboard; live quotes, approvals, and settlement occur in the external app. CASHCAT is not affiliated with Robinhood.
+
+## Internal Sections & App Navigation
+- [What is CashCat Swap?](#what)
+- [How it works](#how)
+- [Robinhood Chain & where it runs](#network)
+- [The CASHCAT/WETH pool](#pair)
+- [Fees, gas & price impact](#fees)
+- [Is CASHCAT safe?](#safety)
+- [Troubleshooting & Fixes](#troubleshoot)
+- [Frequently Asked Questions](#faq)
+- [CashCat Swap Dashboard](index.html)
+- [Open CashCat Swap App](dashboard/index.html)
